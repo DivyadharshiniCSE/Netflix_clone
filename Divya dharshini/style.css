@@ -1,0 +1,45 @@
+/* Add this CSS to your existing style.css file or create a new one */
+
+body {
+    font-family: 'Arial', sans-serif; /* Use a suitable font-family */
+    margin: 0;
+}
+
+.header {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.your-name {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100px; /* Adjust the max-width as needed */
+}
+
+.lang-btn {
+    background-color: #e50914;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-content {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+}
+
+/* Add more styles as needed for the remaining sections of your page */
